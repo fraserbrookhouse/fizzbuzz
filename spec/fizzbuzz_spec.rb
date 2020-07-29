@@ -1,3 +1,5 @@
+require 'fizzbuzz'
+
 describe 'fizzbuzz' do
   it 'returns "fizz" when passed 3' do
     expect(fizzbuzz(3)).to eq 'fizz'
@@ -18,7 +20,7 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(45)).to eq 'fizzbuzz'
   end
   it 'returns "2" when passed 2' do
-    expect(fizzbuzz(3)).to eq 2
+    expect(fizzbuzz(2)).to eq 2
   end
   it 'returns "79" when passed 79' do
     expect(fizzbuzz(79)).to eq 79
